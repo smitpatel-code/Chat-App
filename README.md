@@ -1,26 +1,12 @@
-# Chat-App
-# 💬 ChatApp
+# React + Vite
 
-A real-time chat application built with **Spring Boot**, **React**, and **MongoDB**. Users can join or create chat rooms using just a **Room ID** and a **Username**, and communicate in real-time with others.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🔐 Join chat rooms using just a Room ID and a username.
-- 💬 Real-time messaging using WebSockets.
-- 🧠 No user registration required.
-- 🧾 Persistent message storage using MongoDB.
-- 🧼 Clean and simple UI built with React.
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React, Axios, Socket.IO Client
-- **Backend**: Spring Boot, WebSocket (STOMP), MongoDB, Socket.IO Server (optional)
-- **Database**: MongoDB
-
----
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
